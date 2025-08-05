@@ -1,3 +1,5 @@
+from dotenv import load_dotenv
+load_dotenv()
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 import os
